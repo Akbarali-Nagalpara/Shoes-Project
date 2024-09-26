@@ -1,0 +1,23 @@
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 71px;
+
+}
+.unorder{
+  display: flex;
+  gap: 34px;
+}
+.list-item{
+  list-style: none;
+}
+
+.login-btn{
+  all: unset;
+  padding: 6px 20px;
+  height: 32px;
+  font-weight: 500;
+  background-color: var(--red);
+  color: white;
+}

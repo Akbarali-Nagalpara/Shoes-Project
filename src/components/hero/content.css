@@ -1,0 +1,45 @@
+.content{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height:calc(100vh - 71px);
+}
+.page_content{
+  display: flex;
+  flex-direction: column;
+  gap: 34px;
+}
+.page_content h1{
+  font-size: 70px;
+  line-height: 68px;
+  width: 70%;
+}
+.page_content p{
+  font-size: 16px;
+  width: 60%;
+  color: var(--gray);
+}
+.shop-btn{
+  all: unset;
+  background-color: var(--red);
+  color: #fff;
+  padding: 6px 16px ;
+}
+.btns{
+  display: flex;
+  gap: 30px;
+}
+.category-btn{
+  all: unset;
+  border: 1px solid var(--gray);
+  color: var(--gray);
+  padding: 5px 16px ;
+  font-weight: 500;
+}
+.last-img{
+  display: flex;
+  gap: 15px;
+}
+.last-img img{
+  padding: 3px 5px;
+}
